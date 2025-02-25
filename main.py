@@ -7,7 +7,7 @@ from faster_whisper import WhisperModel
 
 # Configurações
 AUDIO_FILE = "audio.m4a"  # Nome do arquivo de áudio original
-CHUNK_DURATION = 5  # Duração de cada segmento (segundos)
+CHUNK_DURATION = 15  # Duração de cada segmento (segundos)
 SPLIT_AUDIO = True  # Define se o áudio deve ser dividido
 TEST_MODE = False  # Modo de teste
 MAX_TEST_CHUNKS = 3  # Máximo de chunks para teste
