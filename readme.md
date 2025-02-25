@@ -25,7 +25,7 @@ source venv/bin/activate # No Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Automatizar vidia-cudnn-cu12 para toda vez que ativar o venv
+## Apontamento vidia-cudnn-cu12
 
 - Execute o comando abaixo com o venv ativo para apontar para o nvidia-cudnn-cu12 correto:
 
