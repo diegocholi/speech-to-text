@@ -8,7 +8,7 @@ sudo apt install ffmpeg  # Ubuntu/Debian
 brew install ffmpeg      # macOS
 ```
 
-# Configure venv
+# Configure venv (Use pythyn ou Node. Python é mais performatico com placa de video)
 
 ```sh
 python3 -m venv venv
