@@ -1,0 +1,10 @@
+node_modules
+audio.m4a
+converted.wav
+package-lock.json
+chunks
+audio.txt
+audio_clean.wav
+audio_normalized.wav
+audio_enhanced.wav
+audio_nosilence.wav
