@@ -8,3 +8,4 @@ audio_clean.wav
 audio_normalized.wav
 audio_enhanced.wav
 audio_nosilence.wav
+venv/
