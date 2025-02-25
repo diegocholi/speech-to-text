@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Automatizar vidia-cudnn-cu12 para toda vez que ativar o venv
 
-- Execute o comando a baixo com o venv ativo para apontar para o nvidia-cudnn-cu12 correto:
+- Execute o comando abaixo com o venv ativo para apontar para o nvidia-cudnn-cu12 correto:
 
 ```
 echo 'export CUDNN_LIBRARY=$VIRTUAL_ENV/lib/python3.10/site-packages/nvidia/cudnn/lib' >> venv/bin/activate
