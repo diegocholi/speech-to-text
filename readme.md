@@ -10,7 +10,7 @@ brew install ffmpeg      # macOS
 
 # Configure venv 
 
-Use pythyn ou Node. 
+Use pythyn ou Node
 - Python é mais performatico com placa de video
 
 ```sh
