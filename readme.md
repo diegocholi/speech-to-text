@@ -22,15 +22,9 @@ source venv/bin/activate # No Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-# Instale o cuDNN via pip
-
-```sh
-pip install nvidia-cudnn-cu12==9.1.0.70
-```
-
 ## Automatizar vidia-cudnn-cu12 para toda vez que ativar o venv
 
-- Adicione as linhas no final do arquivo:
+- Execute o comando a baixo com o venv ativo para apontar para o nvidia-cudnn-cu12 correto:
 
 ```
 echo 'export CUDNN_LIBRARY=$VIRTUAL_ENV/lib/python3.10/site-packages/nvidia/cudnn/lib' >> venv/bin/activate
@@ -40,11 +34,19 @@ echo 'export LD_LIBRARY_PATH=$CUDNN_LIBRARY:$LD_LIBRARY_PATH' >> venv/bin/activa
 
 # Dependencias python (já estão todas no requirements.txt com faster-whisper)
 
+- Dependencias com faster-whisper
+
 ```sh
 pip install torch torchaudio soundfile numpy ffmpeg-python faster-whisper
 ```
 
-### Se quiser rodar o modelo original da OpenAI em vez do faster-whisper:
+- Instale o cuDNN via pip
+
+```sh
+pip install nvidia-cudnn-cu12==9.1.0.70
+```
+
+- Se quiser rodar o modelo original da OpenAI em vez do faster-whisper:
 
 ```sh
 pip install torch torchaudio soundfile numpy ffmpeg-python openai-whisper
