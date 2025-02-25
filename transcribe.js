@@ -6,11 +6,11 @@ import { decode } from 'wav-decoder';
 
 // Configurações
 const AUDIO_FILE = './audio.m4a'; // Nome do arquivo de áudio original
-const CHUNK_DURATION = 30; // Duração de cada segmento (segundos)
+const CHUNK_DURATION = 5; // Duração de cada segmento (segundos)
 const SPLIT_AUDIO = true; // Define se o áudio deve ser dividido ou não
 
 // Configurações de teste
-const TEST_MODE = true;
+const TEST_MODE = false;
 const MAX_TEST_CHUNKS = 3;
 
 // Função para dividir o áudio em partes menores (ou retornar o arquivo original se SPLIT_AUDIO for falso)
